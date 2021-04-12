@@ -45,9 +45,7 @@
         <div id="myVideo" style="background-color: black; position:absolute; top:50%; transform: translateY(-50%);">
         </div>
     </div>
-    <button onclick="take()" id="screenshot" type="button">
-        Screenshot   
-    </button>
+   
     
     <div>Remote Video</div>
     <div style="height:200px; width:300px; background-color:black; position:relative;">
@@ -56,14 +54,7 @@
     </div>
 </body>
     <script src="./bundle.js"></script>
-    <script type="text/javascript" src="html2canvas-master/dist/html2canvas.js"></script>
-    <script>
-    function take(){
-    html2canvas(document.getElementById('takethis')).then((function(canvas){
-        document.body.appendChild(canvas)
-    }))
-}
-   </script>
+   
 
 
 </html>
